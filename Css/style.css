@@ -122,7 +122,7 @@ button {
   display: block;
   margin: 20px auto;
   padding: 10px 20px;
-  background-color: #007bff;
+  background-color: #6bb3ff;
   color: white;
   border: none;
   border-radius: 5px;
@@ -130,7 +130,7 @@ button {
 }
 
 button:hover {
-  background-color: #0056b3;
+  background-color: #6bb3ff;
 }
 
 input {
@@ -160,7 +160,7 @@ input {
   padding: 10px;
   margin-left: 10px;
   font-size: 16px;
-  background-color: #007bff;
+  background-color: #6bb3ff;
   color: white;
   border: none;
   border-radius: 5px;
@@ -196,7 +196,7 @@ input {
   display: inline-block;
   padding: 10px 20px;
   margin-top: 10px;
-  background-color: #007bff;
+  background-color: #ff4242;
   color: white;
   text-decoration: none;
   border-radius: 5px;
@@ -204,7 +204,7 @@ input {
 }
 
 .btn-more:hover {
-  background-color: #0056b3;
+  background-color: #ff4242;
 }
 
 .movie-details {
@@ -257,7 +257,7 @@ input {
   display: inline-block;
   padding: 10px 20px;
   margin-top: 20px;
-  background-color: #007bff;
+  background-color: #ff4242;
   color: white;
   text-decoration: none;
   border-radius: 5px;
@@ -269,7 +269,7 @@ input {
 }
 
 .btn2-more:hover {
-  background-color: #0056b3;
+  background-color: #ff4242;
 }
 
 @media (max-width: 1200px) {
