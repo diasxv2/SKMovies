@@ -4,14 +4,23 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="/Images/Icon.png" type="image/x-icon" />
-    <title>Recherche de films</title>
+    <title>Recherche de Films</title>
     <link rel="stylesheet" href="/Css/style.css" />
   </head>
   <body>
-    <h1>Recherche de films</h1>
-    <input id="search-input" type="text" placeholder="Rechercher un film" />
-    <div id="search-results"></div>
-    <button id="load-more-results">Charger plus de résultats</button>
+    <div class="container">
+      <h1>Rechercher des Films</h1>
+      <div class="search-bar">
+        <input
+          type="text"
+          id="searchInput"
+          placeholder="Entrez un titre de film..."
+        />
+        <button onclick="searchMovies()">Rechercher</button>
+      </div>
+      <div class="movie-list" id="movieList"></div>
+    </div>
+
     <script src="/Js/search.js"></script>
   </body>
 </html>

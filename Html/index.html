@@ -4,13 +4,29 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="/Images/Icon.png" type="image/x-icon" />
-    <title>Films tendances</title>
+    <title>SK Movies</title>
     <link rel="stylesheet" href="/Css/style.css" />
   </head>
   <body>
-    <h1>Films tendances</h1>
-    <div id="films"></div>
-    <button id="load-more">Charger plus de films</button>
+    <header>
+      <a href="index.html">
+        <div class="banner">
+          <img src="/Images/Icon.png" width="60" height="60" />
+        </div>
+      </a>
+      <nav class="navbar">
+        <h4>SK Movies</h4>
+        <ul>
+          <li><a href="search.html">Rechercher</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="movies-container"></div>
+    </main>
+
     <script src="/Js/script.js"></script>
+    <script src="/Js/burger.js"></script>
   </body>
 </html>
